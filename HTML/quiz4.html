@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- metadata goes in head -->
+
+	<title>Forms Validation</title>
+</head>
+<body>
+<!-- content goes in the body -->
+	<h1>Register</h1>
+  <form>
+    <label for="firstname">First Name: </label>
+    <input id = "firstname" name = "firstname" type = "text" placeholder = "John" required></input>
+
+    <label for="lastname">Last Name: </label>
+    <input id = "lastname" name = "lastname" type = "text" placeholder = "Smith" required></input>
+
+    <br/>
+
+    <label for="male">Male</label>
+    <input id = "male" name = "gender" type = "radio"></input>
+    <label for="female">Female</label>
+    <input id = "female" name = "gender" type = "radio"></input>
+    <label for="other">Other</label>
+    <input id = "other" name = "gender" type = "radio"></input>
+
+    <br/>
+
+    <label for="email">Email: </label>
+    <input id = "email" name = "email" type = "email" placeholder = "Email Address" required></input>
+
+    <label for="password">Password: </label>
+    <input id = "password" name = "password" type = "password" placeholder = "Password" minlength = "5" maxlength="10" required></input>
+
+    <br/>
+
+    <label for="birthday">Birthday: </label>
+    <select id = "birthday" name = "month">
+      <option>January</option>
+      <option>February</option>
+    </select>
+    <select id = "birthday" name = "day">
+      <option>1</option>
+      <option>2</option>
+    </select>
+    <select id = "birthday" name = "year">
+      <option>2018</option>
+      <option>2017</option>
+    </select>
+
+    <br/>
+
+    <label for="agree">I agree to the terms and conditions: </label>
+    <input type = "checkbox" id = "agree" name = "agree"></input>
+
+    <br/>
+
+    <button>Submit</button>
+  </form>
+</body>
+</html>
