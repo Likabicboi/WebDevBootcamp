@@ -1,0 +1,26 @@
+body{
+  font-family: Source Sans Pro;
+}
+
+h1{
+  color: #2c3e50;
+}
+
+.main{
+  border: 20px solid #bdc3c7;
+  width: 50%;
+  margin: auto;
+  padding: 2.5%;
+}
+
+.quote{
+  padding-left: 2.5%;
+  border-left: 2px solid #bdc3c7;
+}
+
+.date{
+  text-transform: uppercase;
+  color: #3498db;
+  letter-spacing: 3px;
+  font-weight: normal;
+}
