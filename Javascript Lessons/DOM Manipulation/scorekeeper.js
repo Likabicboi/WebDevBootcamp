@@ -44,8 +44,8 @@ p2.addEventListener("click", function(){
 resetbut.addEventListener("click", reset);
 
 max.addEventListener("change", function(){
-  if (Number(this.value < 0 )){
-    this.value = 0;
+  if (Number(this.value < 1 )){
+    this.value = 1;
   }
   maxDisp.textContent = Number(this.value);
   winNum = Number(this.value);
